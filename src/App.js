@@ -1,5 +1,11 @@
+import AccordionContainer from "./components/Accordion/AccordionContainer";
+
 function App() {
-  return <div>Mukund</div>;
+  return (
+    <div>
+      <AccordionContainer />;
+    </div>
+  );
 }
 
 export default App;
