@@ -1,4 +1,5 @@
 import AccordionContainer from "./components/Accordion/AccordionContainer";
+import Calculator from "./components/Calculator/Calculator";
 import CarouselContainer from "./components/Carousel/CarouselContainer";
 import StarRating from "./components/StarRating/StarRating";
 
@@ -7,7 +8,8 @@ function App() {
     <div>
       {/* <AccordionContainer />; */}
       {/* <CarouselContainer/> */}
-      <StarRating/>
+      {/* <StarRating/> */}
+      <Calculator/>
     </div>
   );
 }
