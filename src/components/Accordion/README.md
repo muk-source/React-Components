@@ -1,0 +1,3 @@
+We want to acheive the accordion component with the behaviour that only accordion item opens at once.If we try to open two accordion items then the previous one should be closed.
+This can be done by passing the onToogle function which takes the "id" prop through which we decide which accordion to be item and the one we want to  close should be set to null.
+We are passing the "isOpen"  prop which sets to true or false accordion to onToggle function.

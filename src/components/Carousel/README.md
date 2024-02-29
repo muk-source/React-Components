@@ -1,0 +1,2 @@
+We want to acheive the carousel or image slider component.Logic behind to render images on the basis of index . We will use css classes to check if index === activeState then we use css block otherwise we will display none.Logic behind prevImage and nextImage is simple , we will just change the sstate through these buttons.
+We can play the images in loop also by using setInterval .
