@@ -1,0 +1,11 @@
+.form > div {
+    padding: 10px 20px;
+}
+
+.form > div > label {
+    padding-right: 20px;
+}
+
+.error {
+    color: red;
+}
