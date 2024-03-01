@@ -22,7 +22,7 @@
   grid-template-columns: repeat(4, 1fr);
   width: 500px;
 }
-button {
+.button {
   outline: none;
   cursor: pointer;
   font-size: 18px;
@@ -31,6 +31,6 @@ button {
   color: white;
 }
 
-button:hover {
+.button:hover {
   background-color: #333;
 }

@@ -1,4 +1,5 @@
 import AccordionContainer from "./components/Accordion/AccordionContainer";
+import Counter from "./components/Auto-Increment-Counter/Counter";
 import Calculator from "./components/Calculator/Calculator";
 import CarouselContainer from "./components/Carousel/CarouselContainer";
 import Loader from "./components/Loader/Loader";
@@ -14,7 +15,8 @@ function App() {
       {/* <StarRating/> */}
       {/* <Calculator/> */}
       {/* <Loader/> */}
-      <ThemeContainer/>
+      {/* <ThemeContainer/> */}
+      <Counter/>
     </div>
   );
 }
