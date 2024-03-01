@@ -4,6 +4,7 @@ import Calculator from "./components/Calculator/Calculator";
 import CarouselContainer from "./components/Carousel/CarouselContainer";
 import Loader from "./components/Loader/Loader";
 import StarRating from "./components/StarRating/StarRating";
+import Fetch from "./components/useFetch/Fetch";
 import ThemeContainer from "./components/useTheme/ThemeContainer";
 
 
@@ -16,7 +17,7 @@ function App() {
       {/* <Calculator/> */}
       {/* <Loader/> */}
       {/* <ThemeContainer/> */}
-      <Counter/>
+      <Fetch/>
     </div>
   );
 }
