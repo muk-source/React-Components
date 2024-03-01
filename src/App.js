@@ -4,6 +4,7 @@ import Calculator from "./components/Calculator/Calculator";
 import CarouselContainer from "./components/Carousel/CarouselContainer";
 import Form1 from "./components/Form/Form1";
 import Loader from "./components/Loader/Loader";
+import Pagination from "./components/Pagination/Pagination";
 import StarRating from "./components/StarRating/StarRating";
 import Fetch from "./components/useFetch/Fetch";
 import ThemeContainer from "./components/useTheme/ThemeContainer";
@@ -19,7 +20,8 @@ function App() {
       {/* <Loader/> */}
       {/* <ThemeContainer/> */}
       {/* <Fetch/> */}
-      <Form1/>
+      {/* <Form1/> */}
+      <Pagination/>
     </div>
   );
 }
