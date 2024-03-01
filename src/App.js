@@ -3,6 +3,8 @@ import Calculator from "./components/Calculator/Calculator";
 import CarouselContainer from "./components/Carousel/CarouselContainer";
 import Loader from "./components/Loader/Loader";
 import StarRating from "./components/StarRating/StarRating";
+import ThemeContainer from "./components/useTheme/ThemeContainer";
+
 
 function App() {
   return (
@@ -11,7 +13,8 @@ function App() {
       {/* <CarouselContainer/> */}
       {/* <StarRating/> */}
       {/* <Calculator/> */}
-      <Loader/>
+      {/* <Loader/> */}
+      <ThemeContainer/>
     </div>
   );
 }
