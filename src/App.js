@@ -3,6 +3,8 @@ import Counter from "./components/Auto-Increment-Counter/Counter";
 import Calculator from "./components/Calculator/Calculator";
 import CarouselContainer from "./components/Carousel/CarouselContainer";
 import Modal from "./components/CustomModal/Modal";
+import FolderContainer from "./components/FolderStructure/FolderContainer";
+import FolderStructure from "./components/FolderStructure/FolderStructure";
 import Form1 from "./components/Form/Form1";
 import Loader from "./components/Loader/Loader";
 import Pagination from "./components/Pagination/Pagination";
@@ -23,7 +25,8 @@ function App() {
       {/* <Fetch/> */}
       {/* <Form1/> */}
       {/* <Pagination/> */}
-      <Modal/>
+      {/* <Modal/> */}
+      <FolderContainer/>
     </div>
   );
 }
