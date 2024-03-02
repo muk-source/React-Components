@@ -2,6 +2,7 @@ import AccordionContainer from "./components/Accordion/AccordionContainer";
 import Counter from "./components/Auto-Increment-Counter/Counter";
 import Calculator from "./components/Calculator/Calculator";
 import CarouselContainer from "./components/Carousel/CarouselContainer";
+import Modal from "./components/CustomModal/Modal";
 import Form1 from "./components/Form/Form1";
 import Loader from "./components/Loader/Loader";
 import Pagination from "./components/Pagination/Pagination";
@@ -21,7 +22,8 @@ function App() {
       {/* <ThemeContainer/> */}
       {/* <Fetch/> */}
       {/* <Form1/> */}
-      <Pagination/>
+      {/* <Pagination/> */}
+      <Modal/>
     </div>
   );
 }
