@@ -9,9 +9,9 @@ import Form1 from "./components/Form/Form1";
 import Loader from "./components/Loader/Loader";
 import Pagination from "./components/Pagination/Pagination";
 import StarRating from "./components/StarRating/StarRating";
+import TicTacToe from "./components/Tic-Tac-Toe/tic-tac-toe";
 import Fetch from "./components/useFetch/Fetch";
 import ThemeContainer from "./components/useTheme/ThemeContainer";
-
 
 function App() {
   return (
@@ -26,7 +26,8 @@ function App() {
       {/* <Form1/> */}
       {/* <Pagination/> */}
       {/* <Modal/> */}
-      <FolderContainer/>
+      {/* <FolderContainer/> */}
+      <TicTacToe />
     </div>
   );
 }

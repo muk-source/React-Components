@@ -3,7 +3,7 @@ import "./styles.css";
 
 export default function Pagination() {
   const [products, setProducts] = useState([]);
-  const [page, setPage] = useState(2);
+  const [page, setPage] = useState(1);
   useEffect(() => {
     async function fetchProducts() {
       const res = await fetch("https://dummyjson.com/products");
