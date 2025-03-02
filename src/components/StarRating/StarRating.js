@@ -3,7 +3,7 @@ import "./style.css";
 
 export default function StarRating() {
   const [selectedStarCount, setSelectedStarCount] = useState(0);
-  const [selectedHoverCount, setSelectedHoverCount] = useState(0)
+  const [selectedHoverCount, setSelectedHoverCount] = useState(0);
   return (
     <div className="star-rating">
       Star rating
@@ -12,8 +12,10 @@ export default function StarRating() {
           <span
             key={index}
             onClick={() => setSelectedStarCount(index + 1)}
-            className={`${index + 1 <= selectedStarCount ? "selected" : ""} ${index + 1 <= selectedHoverCount ? "selected" : ""}`}
-            onMouseOver={() => setSelectedHoverCount(index+1)}
+            className={`${index + 1 <= selectedStarCount ? "selected" : ""} ${
+              index + 1 <= selectedHoverCount ? "selected" : ""
+            }`}
+            onMouseOver={() => setSelectedHoverCount(index + 1)}
             onMouseOut={() => setSelectedHoverCount(0)}
           >
             &#9733;

@@ -1,5 +1,6 @@
 import AccordionContainer from "./components/Accordion/AccordionContainer";
 import Counter from "./components/Auto-Increment-Counter/Counter";
+import AutoSuggestion from "./components/AutoSuggestion/AutoSuggestion";
 import Calculator from "./components/Calculator/Calculator";
 import CarouselContainer from "./components/Carousel/CarouselContainer";
 import Modal from "./components/CustomModal/Modal";
@@ -27,7 +28,8 @@ function App() {
       {/* <Pagination/> */}
       {/* <Modal/> */}
       {/* <FolderContainer/> */}
-      <TicTacToe />
+      {/* <TicTacToe /> */}
+      <AutoSuggestion />
     </div>
   );
 }
